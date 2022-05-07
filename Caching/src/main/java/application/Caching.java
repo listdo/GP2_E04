@@ -7,7 +7,7 @@ public class Caching {
     public static void test(int n, int m) {
         System.out.println("Caching Status: " + (cachingEnabled ? "active" : "inactive"));
         System.out.println("Calculating binomial coefficient for (" + n + "," + m + ")... ");
-        long result = BinomialCoefficient.Calculate(n, m);
+        long result = BinomialCoefficient.calculate(n, m);
         System.out.println("Finished. Result: " + result);
         System.out.println();
     }

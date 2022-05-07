@@ -9,6 +9,10 @@ public class TSPSolver {
     public static boolean randomSelection = false;
     public static boolean cyclicCrossover = false;
     public static boolean maximalPreservativeCrossover = false;
+    public static boolean countSolutions = true;
+    public static boolean limitSolutions = true;
+    public static boolean elitism = true;
+    public static boolean progress = true;
 
     public static void main(String[] args) {
         try {
